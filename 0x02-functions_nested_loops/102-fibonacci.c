@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	int i, j = 0, k = 1, l;
+	long i, j = 0, k = 1, l;
 
 	for (i = 0; i < 50; i++)
 	{
 		l = j + k;
 		j = k;
 		k = l;
-		printf("%i", l);
+		printf("%ld", l);
 		if (i == 49)
 			putchar('\n');
 		else
