@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Return: 0
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int x;
+	int i;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(x);
+		printf("%d", i);
 	}
-	putchar('\n');
+
+	printf("\n");
 
 	return (0);
 }

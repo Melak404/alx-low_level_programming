@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit of n and prints out whether it is
- * greater than 5, 0, or less than 6
+ * main - Entry point
  * Return: 0
  */
 int main(void)
