@@ -7,17 +7,19 @@
  */
 int main(void)
 {
-	long i, j = 0, k = 1, l;
+	long i = 0, j = 1, k = 2, l = k;
 
-	for (i = 0; i < 50; i++)
+	while (k + j < 4000000)
 	{
-		l = j + k;
-		j = k;
-		k = l;
+		k = k + j;
 
 		if ((k % 2) == 0)
 			l = l + k;
+		j = k - j;
+
+		++i;
 	}
+
 	printf("%ld\n", l);
 	return (0);
 }
