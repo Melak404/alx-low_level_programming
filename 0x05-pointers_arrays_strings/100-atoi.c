@@ -2,6 +2,7 @@
 /**
 * _atoi - Converter
 * @s: Input
+* Return: converted
 */
 
 int _atoi(char *s)
