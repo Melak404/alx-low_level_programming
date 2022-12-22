@@ -1,5 +1,5 @@
 #include "main.h"
- 
+
 /**
  * _strncat - concat
  * @dest: input
